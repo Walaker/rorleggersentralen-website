@@ -1437,22 +1437,35 @@ p {
         display: none;
     }
     
-    .hero-content h1 {
-        font-size: 2.5rem;
+.hero-content h1 {
+        font-size: 2.2rem;
+        line-height: 1.1;
+        margin-bottom: 1rem;
     }
     
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
     }
     
     .hero-ctas {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .hero-ctas .btn {
+        width: 100%;
+        max-width: 300px;
     }
     
     .hero-trust {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+        padding: 0 1rem;
     }
     
     .trust-content {
